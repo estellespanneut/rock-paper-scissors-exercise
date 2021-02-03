@@ -32,10 +32,10 @@ elif computer_choice == "scissors" and user_choice == "rock":
     print("Congrats! You Won!")
 elif computer_choice == "rock" and user_choice == "paper":
     print("Congrats! You Won!")
-elif computer_choice == "rock" and user_choice == "paper":
+elif computer_choice == user_choice:
     print("It's a tie!")
-        
-print("Oh, the computer won. It's ok.")
+else:
+    print("Oh, the computer won. It's ok.")
 
 print("-------------------")
 
