@@ -39,11 +39,11 @@ pip install -r requirements.txt
 
 In in the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired username:
 
-    USER_NAME="John Snow" #Replace the name inside the quotation marks with your own name or whatever you want displayed as your username for the game
+    USER_NAME="John Snow" # (Replace the name inside the quotation marks with your own name or whatever you want displayed as your username for the game)
 
-Alternatively, once you have created the .env file, you can configure your username in the command line by typing the code below. This is simply an alterative to configuring your .env file through VSCode, and should not be done in addition to the step above.  
+Alternatively, once you have created the .env file, you can configure your username in the command line by typing the code below. This is simply an alterative to configuring your .env file through VSCode, and should not be done in addition to the step above. Please note that using this method will cause the game to begin.
 
-    USER_NAME="Jane" python my_game.py #Replace the name inside the quotation marks with your own name or whatever you want displayed as your username for the game
+    USER_NAME="Jane" python game.py # (Replace the name inside the quotation marks with your own name or whatever you want displayed as your username for the game)
 
 
 
