@@ -41,7 +41,7 @@ In in the root directory of your local repository, create a new file called ".en
 
     USER_NAME="John Snow" #Replace the name inside the quotation marks with your own name or whatever you want displayed as your username for the game
 
-Alternatively, once you have created the .env file, you can configure your username in the command line by typing. This is simply an alterative to configuring your .env file through VSCode. 
+Alternatively, once you have created the .env file, you can configure your username in the command line by typing the code below. This is simply an alterative to configuring your .env file through VSCode, and should not be done in addition to the step above.  
 
     USER_NAME="Jane" python my_game.py #Replace the name inside the quotation marks with your own name or whatever you want displayed as your username for the game
 
@@ -64,7 +64,7 @@ The following message should be displayed, perhaps with a different username dis
 Welcome 'Player One' to my Rock-Paper-Scissors game...
 -------------------
 Please choose either 'rock', 'paper', or 'scissors': 
-
+```
 
 Once you see this message, choose between rock, paper, and scissors. Type this selection into the command line and press enter. Note that if you make a typo or choose anything else, GitBash will send you an error message and the game will stop.
 
